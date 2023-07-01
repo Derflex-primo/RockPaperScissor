@@ -1,0 +1,41 @@
+ 
+
+.gameDiv {
+    width: 700px;
+    font-family:  consolas, monospace;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 14px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.choiceBtn {
+    
+    padding: 10px;
+    border-radius: 8px;
+ 
+
+}
+
+.choiceBtn:hover {
+    background-color: #40c437;
+    color: aliceblue;
+}
+
+#playerText {
+   color: rgb(144, 91, 194);
+}
+
+#resultText {
+    color: rgb(225, 76, 76)
+}
+#computerText {
+    color: #444a43;
+}
+
+.gameMother {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
